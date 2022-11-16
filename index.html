@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaito Noda's Homepage</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- ------------------------------------ English -------------------------------------- -->
+        <div class="English open" lang="en">
+            <!---------------------------------------- Header ---------------------------------------------->
+            <header>
+                <div class="header-contents">
+                    <div class="language-switch">
+                        <div class="switch">
+                            <label class="select-lang ja">日本語</label>
+                            <label class="select-lang active en">English</label>
+                        </div>
+                    </div>
+                    <div class="header-name">
+                        <div class="logo">Kaito Noda</div>
+                    </div>
+                    <div class="navigator">
+                        <label class="checkbtn"><img class src="pictures/menu.png" alt=""></label>    
+                    </div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#time-line">Timeline</a></li>
+                        <li><a href="#coding-skills">Coding Skills</a></li>
+                        <li><a href="#portfolios">Portfolios</a></li>
+                        <li><a href="#my-interests">My Interests</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!------------------------------------- Header ------------------------------------------------->
+            <!-------------------------------------- Main ------------------------------------------------>
+            <div class="main">
+                <div class="contents">
+                    <!---------------- Home -------------------->
+                    <div class="link" id="home"></div>
+                    <div class="top-page">
+                        <section class="myname">
+                          <h1 class="typed" style="white-space:pre"></h1>
+                          <p>&nbsp;<span class="typed-second" style="white-space:pre"> </span>&nbsp;</p>
+                        </section>
+                    </div>
+                    <!---------------- Home -------------------->
+                    <!------------------------------------ Introduction -------------------------------------------------->
+                    <div class="link" id="introduction"></div>
+                    <div class ="introduction">
+                        <div class="catch" > Introduction </div>
+                        <section class="introduction-image">
+                            <img src="pictures/FacePicture.jpg" >
+                            <p class="name">Hello, my name is
+                                <br><span>Kaito Noda</span>
+                                <br>Computer Science student</p>
+                        </section>
+                        <div class ="introduction-writing">
+                            <p> First of all, 
+                            thank you for visiting my website. I am glad 
+                            if you know me more taking this opportunity.
+                            I am <strong>originally from Japan</strong> and currenly <strong>computer 
+                            science student </strong> at the University of British Columbia (UBC). 
+                            My goal is to become a <strong>software engineer</strong> specialising in
+                            app development. I am also interested in Artificial Intelligent.</p>
+                        </div>
+                    </div>
+                    <!------------------------------------ Introduction -------------------------------------------------->
+                    <!--------------------------------------- Timeline ----------------------------------------------->
+                    <div class="link" id="time-line"></div>
+                    <div class="time-line">
+                        <div class="catch">Timeline</div>
+                        <ul class="lists">
+                            <li>
+                                <div class="year"> 1999 </div>
+                                <div class="timeline-item">Was born in Nagoya, Japan.</div>
+                            </li>
+                            <li >
+                                <div class="year"> 2017 </div>
+                                <div class="timeline-item">Started working at Marriot Hotel in Nagoya for 3 years. </div>
+                            </li>
+                            <li>
+                                <div class="year">2018 </div>
+                                <div class="timeline-item">Graduated from high school in Nagoya.</div>      
+                            </li>      
+                            <li >
+                                <div class="year"> 2020 </div>
+                                <div class="timeline-item">Moved to Canada to start my education.</div>      
+                            </li>   
+                            <li >
+                                <div class="year"> 2022 </div>
+                                <div class="timeline-item">Started bachelor of Science degree at the universiy.</div>      
+                            </li>   
+                        </ul>
+                    </div>
+                    <!--------------------------------------- Timeline ----------------------------------------------->
+                    <!---------------------------------------- Coding Skills --------------------------------------------->
+                    <div class="link" id="coding-skills"></div>
+                    <div class ="coding-skills">
+                        <div class="catch"> Coding Skills</div>
+                        <div class="coding-skills-content">
+                            <div class="content-left ">
+                                <div class="graph">
+                                    <img class="python" src="pictures/python.webp">
+                                    <img class="cpp" src="pictures/c-logo-icon-28389.png">
+                                    <img class="java" src="pictures/java.webp">
+                                    <img class="html-css" src="pictures/htmlcss.png">
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <div class="item Python">
+                                    <img class="python" src="pictures/python.webp"><p>Python 30%</p>
+                                </div>
+                                <div class="item Cpp">
+                                    <img class="cpp" src="pictures/c-logo-icon-28389.png"><p>C++ 20%</p>
+                                </div>
+                                <div class="item Java">
+                                    <img class="java" src="pictures/java.webp"><p>Java 20%</p>
+                                </div>
+                                <div class="item HTML-CSS">
+                                    <img class="html-css" src="pictures/htmlcss.png"><p>HTML and CSS 20%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="button">
+                            <a class="btn" href="pictures/yakitori.pdf" download id="yakitori.pdf" >get resume<img src="pictures/download.png" ></a>
+                        </div> 
+                    </div>
+                    <!---------------------------------------- Coding Skills --------------------------------------------->
+                    <!-------------------------------------- Portfolios ------------------------------------------->        
+                    <div class="link" id="portfolios"></div>
+                    <div class="portfolios" >
+                        <div class="catch portfolio">Portfolios</div>
+                        <div class="warpper">
+                            <div class="tabs"> 
+                                <a class="tab all is-active" >All</a>
+                                <a class="tab cs" >Computer Science</a>
+                                <a class="tab web" >Web development</a>
+                            </div>
+                            <div class="panels">
+                                <div class="panel is-show">
+                                    <div class="work portfolio-website">
+                                        <h1 class="title">Portfolios website</h1>
+                                        <p><strong>Used language</strong>:  HTML, CSS, JavaScript</p>
+                                        <p><strong>Date created</strong>: 2022 October</p>
+                                        <p class="text">This is the website portoflio I made from beginneing for intership. </p>
+                                        <img src="pictures/homepage website.png" alt="">
+                                    </div>
+                                    <div class="work portfolio-quiz">
+                                        <h1 class="title">Portoflio Quiz </h1>
+                                        <p><strong>Used language</strong>:  Java</p>
+                                        <p><strong>Date created</strong>: Expected 2023 January</p>
+                                        <p class="text">This is the quiz platform on website </p>   
+                                        <img src="pictures/Comingsoon.jpg" alt="">  
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="work portfolio-quiz">
+                                        <h1 class="title">Portoflio Quiz </h1>
+                                        <p><strong>Used language</strong>:  Java</p>
+                                        <p><strong>Date created</strong>: Expected 2023 January</p>
+                                        <p class="text">This is the quiz platform on website </p>   
+                                        <img src="pictures/Comingsoon.jpg" alt="">  
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="work portfolio-website">
+                                        <h1 class="title">Portfolios website</h1>
+                                        <p><strong>Used language</strong>:  HTML, CSS, JavaScript</p>
+                                        <p><strong>Date created</strong>: 2022 October</p>
+                                        <p class="text">This is the website portoflio I made from beginneing for intership. </p>
+                                        <img src="pictures/homepage website.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------------------- Portfolios ------------------------------------------->  
+                    <!-------------------------------------- Interests ------------------------------------------->  
+                    <div class="link" id="my-interests"></div>
+                    <div class="my-interests" lang="en">
+                        <div class="catch">My Interests</div>
+                        <p>In my free time, I enjoy <strong>cooking</strong>, <strong>hiking</strong> 
+                        and <strong>snowboarding</strong> in the winter. I love <strong>taking nice pictures </strong>
+                        (taken by iPhone) and learning to use a SLR camera now. 
+                        <br>Please visit my <strong><a href="https://vsco.co/kaito-jp/gallery">VSCO</a></strong> !! </p>
+                        <div class="pictures">
+                            <div class="pic bridge">
+                                <img src="pictures/brige.jpg">
+                            </div>
+                            <div class="pic fire">
+                                <img src="pictures/fire.jpg">
+                            </div>
+                            <div class="pic sunset">
+                                <img src="pictures/sunset.jpg">
+                            </div>
+                            <div class="pic forest">
+                                <img src="pictures/forest.jpg">
+                            </div>
+                            <div class="pic daihuku">
+                                <img src="pictures/daihuku.jpg">
+                            </div>
+                            <div class="pic sunset-with-sign">
+                                <img src="pictures/sunset with sign.jpg">
+                            </div>
+                            <div class="pic airplane">
+                                <img src="pictures/airplane.jpg">
+                            </div>
+                            <div class="pic asai">
+                                <img src="pictures/asai.jpg">
+                            </div>
+                            <div class="pic art">
+                                <img src="pictures/art.jpg">
+                            </div>
+                            <div class="pic winery">
+                                <img src="pictures/winery.jpg">
+                            </div>
+                            <div class="pic rose">
+                                <img src="pictures/rose.jpg">
+                            </div>
+                            <div class="pic breakfast">
+                                <img src="pictures/breakfast.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------------------- Interests ------------------------------------------->       
+                </div>
+                <!-- -----------------------footer----------------------- -->
+                <footer>
+                    <div class="contents">
+                        <div class="contact">Contact</div>  
+                        <div class="address">
+                            <div class="email"><img src="pictures/mail.png" alt=""><span>KaitoNoda@outlook.com</span></div>
+                            <div class="phone"><img src="pictures/phone.png" alt=""><a>1-(216)-516-9943</a></div>
+                        </div>
+                        <div class="social-medias">
+                            <div class="social-media Github">
+                              <div class="social-media-icon">
+                                <img src="pictures/github.png">
+                              </div>
+                              <div class="social-media-name">Github</div>
+                            </div>
+                            <div class="social-media Linkdin">
+                                <div class="social-media-icon">
+                                  <img src="pictures/linkdin.png">
+                                </div>
+                                <div class="social-media-name">Linkdin</div>
+                              </div>
+                              <div class="social-media VSCO">
+                                <div class="social-media-icon">
+                                  <img src="pictures/vsco.png">
+                                </div>
+                                <div class="social-media-name">VSCO</div>
+                              </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- -----------------------footer----------------------- -->
+            </div>
+            <!-------------------------------------- Main ------------------------------------------------>
+        </div>
+        <!-- ------------------------------------ English -------------------------------------- -->
+
+
+
+    
+
+        <!-- ------------------------------------ Japanese -------------------------------------- -->
+        <div class="Japanese" lang="ja">
+            <!---------------------------------------- Header ---------------------------------------------->
+            <header>
+                <div class="header-contents">
+                    <div class="language-switch">
+                        <div class="switch">
+                            <label class="select-lang active ja" >日本語</label>
+                            <label class="select-lang en" >English</label>
+                        </div>
+                    </div>
+                    <div class="header-name">
+                        <div class="logo">野田海斗</div>
+                    </div>  
+                    <div class="navigator">
+                        <label class="checkbtn"><img class src="pictures/menu.png" alt=""></label>    
+                    </div>
+                    <ul>
+                        <li><a href="#home-ja">ホーム</a></li>
+                        <li><a href="#introduction-ja">自己紹介</a></li>
+                        <li><a href="#time-line-ja">タイムライン</a></li>
+                        <li><a href="#coding-skills-ja">コードスキル</a></li>
+                        <li><a href="#portfolios-ja">作品集</a></li>
+                        <li><a href="#my-interests-ja">趣味</a></li>
+                    </ul>
+                </div>
+            </header>
+            <!------------------------------------- Header ------------------------------------------------->
+            <!-------------------------------------- Main ------------------------------------------------>
+            <div class="main">
+                <div class="contents">
+                    <!---------------- Home -------------------->
+                    <div class="link" id="home-ja"></div>
+                    <div class="top-page">
+                        <section class="myname">
+                            <h1 class="typed-ja" style="white-space:pre"></h1>
+                            <p>&nbsp;<span class="typed-second-ja" style="white-space:pre"> </span>&nbsp;</p>
+                          </section>
+                    </div>
+                    <!---------------- Home -------------------->
+                    <!------------------------------------ Introduction -------------------------------------------------->
+                    <div class="link" id="introduction-ja"></div>
+                    <div class ="introduction">
+                        <div class="catch" > 自己紹介 </div>
+                        <section class="introduction-image">
+                            <img src="pictures/FacePicture.jpg" >
+                            <p class="name">はじめまして、
+                                <br><span>野田海斗</span>
+                                <br>です。</p>
+                        </section>
+                        <div class = "introduction-writing">
+                            <p> まず初めに私のウェブサイトに来ていただきありがとうございます。これを機に私のことを知っていただけたら幸いです。
+                                私は愛知県出身の大学生です。現在はブリティッシュコロンビア大学にて<strong>コンピューターサイエンス</strong>を専攻
+                                しています。私の目標はソフトエンジニアリングとして働くことです。また人工知能の分野にも興味があります。よろしくお願いいたします。
+                                  </p>
+                        </div>
+                    </div>
+                    <!------------------------------------ Introduction -------------------------------------------------->
+                    <!--------------------------------------- Timeline ----------------------------------------------->
+                    <div class="link" id="time-line-ja"></div>
+                    <div class="time-line">
+                        <div class="catch">タイムライン</div>
+                        <ul class="lists">
+                            <li>
+                                <div class="year"> 1999年</div>
+                                <div class="timeline-item">愛知県で生まれ。</div>
+                            </li>
+                            <li >
+                                <div class="year"> 2017年</div>
+                                <div class="timeline-item">ホテルでウェイターとして働く。 </div>
+                            </li>
+                            <li>
+                                <div class="year">2018年 </div>
+                                <div class="timeline-item">愛知県の高校を卒業。</div>      
+                            </li>      
+                            <li >
+                                <div class="year"> 2020年 </div>
+                                <div class="timeline-item">留学のためカナダへ移住。</div>      
+                            </li>   
+                            <li >
+                                <div class="year"> 2022年 </div>
+                                <div class="timeline-item">大学にて理学士の学位の勉強を始める。</div>      
+                            </li>   
+                        </ul>
+                    </div>
+                    <!--------------------------------------- Timeline ----------------------------------------------->
+                    <!---------------------------------------- Coding Skills --------------------------------------------->
+                    <div class="link" id="coding-skills-ja"></div>
+                    <div class ="coding-skills">
+                        <div class="catch">コードスキル</div>
+                        <div class="coding-skills-content">
+                            <div class="content-left ">
+                                <div class="graph">
+                                    <img class="python" src="pictures/python.webp">
+                                    <img class="cpp" src="pictures/c-logo-icon-28389.png">
+                                    <img class="java" src="pictures/java.webp">
+                                    <img class="html-css" src="pictures/htmlcss.png">
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <div class="item Python">
+                                    <img class="python" src="pictures/python.webp"><p>Python 30%</p>
+                                </div>
+                                <div class="item Cpp">
+                                    <img class="cpp" src="pictures/c-logo-icon-28389.png"><p>C++ 20%</p>
+                                </div>
+                                <div class="item Java">
+                                    <img class="java" src="pictures/java.webp"><p>Java 20%</p>
+                                </div>
+                                <div class="item HTML-CSS">
+                                    <img class="html-css" src="pictures/htmlcss.png"><p>HTML and CSS 20%</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="button">
+                            <a class="btn" href="pictures/yakitori.pdf" download id="Yakitori.pdf" >履歴書をダウンロード<img src="pictures/download.png" ></a>
+                        </div> 
+                    </div>
+                    <!---------------------------------------- Coding Skills --------------------------------------------->
+                    <!-------------------------------------- Portfolios ------------------------------------------->        
+                    <div class="link" id="portfolios-ja"></div>
+                    <div class="portfolios" >
+                        <div class="catch portfolio">作品集</div>
+                        <div class="warpper">
+                            <div class="tabs"> 
+                                <a class="tab all is-active" >全て</a>
+                                <a class="tab cs" >コンピューターサイエンス</a>
+                                <a class="tab web" >ウェブ関連</a>
+                            </div>
+                            <div class="panels">
+                                <div class="panel is-show">
+                                    <div class="work portfolio-website">
+                                        <h1 class="title">ポートフォリオ　ウェブサイト</h1>
+                                        <p><strong>使用言語</strong>:  HTML, CSS, JavaScript</p>
+                                        <p><strong>作成日</strong>: 2022年10月</p>
+                                        <p class="text">この作品はインターン用に一から自作しました</p>
+                                        <img src="pictures/homepage website.png" alt="">
+                                    </div>
+                                    <div class="work portfolio-quiz">
+                                        <h1 class="title">ポートフォリオ　クイズ</h1>
+                                        <p><strong>使用言語</strong>:  Java</p>
+                                        <p><strong>作成日</strong>: 2023年1月予定</p>
+                                        <p class="text">こちらはウェブサイト用のクイズサイトです。</p>   
+                                        <img src="pictures/Comingsoon.jpg" alt="">  
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="work portfolio-quiz">
+                                        <h1 class="title">ポートフォリオ　クイズ</h1>
+                                        <p><strong>使用言語</strong>:  Java</p>
+                                        <p><strong>作成日</strong>: 2023年1月予定</p>
+                                        <p class="text">こちらはウェブサイト用のクイズサイトです。</p>   
+                                        <img src="pictures/Comingsoon.jpg" alt="">  
+                                    </div>
+                                </div>
+                                <div class="panel">
+                                    <div class="work portfolio-website">
+                                        <h1 class="title">ポートフォリオ　ウェブサイト</h1>
+                                        <p><strong>使用言語</strong>:  HTML, CSS, JavaScript</p>
+                                        <p><strong>作成日</strong>: 2022年10月</p>
+                                        <p class="text">この作品はインターン用に一から自作しました</p>
+                                        <img src="pictures/homepage website.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------------------- Portfolios ------------------------------------------->  
+                    <!-------------------------------------- Interests ------------------------------------------->  
+                    <div class="link" id="my-interests-ja"></div>
+                    <div class="my-interests">
+                        <div class="catch">趣味等</div>
+                        <p>休みの時は料理やハイキング、また冬の時期はスノーボードを楽しんでいます。写真を撮ることが好きで最近では一眼レフを学んでいます。
+                            よろしければ私の<strong><a href="https://vsco.co/kaito-jp/gallery">VSCO</a></strong> 見ていってください!! </p>
+                        <div class="pictures">
+                            <div class="pic bridge">
+                                <img src="pictures/brige.jpg">
+                            </div>
+                            <div class="pic fire">
+                                <img src="pictures/fire.jpg">
+                            </div>
+                            <div class="pic sunset">
+                                <img src="pictures/sunset.jpg">
+                            </div>
+                            <div class="pic forest">
+                                <img src="pictures/forest.jpg">
+                            </div>
+                            <div class="pic daihuku">
+                                <img src="pictures/daihuku.jpg">
+                            </div>
+                            <div class="pic sunset-with-sign">
+                                <img src="pictures/sunset with sign.jpg">
+                            </div>
+                            <div class="pic airplane">
+                                <img src="pictures/airplane.jpg">
+                            </div>
+                            <div class="pic asai">
+                                <img src="pictures/asai.jpg">
+                            </div>
+                            <div class="pic art">
+                                <img src="pictures/art.jpg">
+                            </div>
+                            <div class="pic winery">
+                                <img src="pictures/winery.jpg">
+                            </div>
+                            <div class="pic rose">
+                                <img src="pictures/rose.jpg">
+                            </div>
+                            <div class="pic breakfast">
+                                <img src="pictures/breakfast.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------------------------------- Interests ------------------------------------------->       
+                </div>
+                <!-- -----------------------footer----------------------- -->
+                <footer>
+                    <div class="contents">
+                        <div class="contact">お問い合わせ</div>  
+                        <div class="address">
+                            <div class="email"><img src="pictures/mail.png" alt=""><span>KaitoNoda@outlook.com</span></div>
+                            <div class="phone"><img src="pictures/phone.png" alt=""><a>1-(216)-516-9943</a></div>
+                        </div>
+                        <div class="social-medias">
+                            <div class="social-media Github">
+                              <div class="social-media-icon">
+                                <img src="pictures/github.png">
+                              </div>
+                              <div class="social-media-name">Github</div>
+                            </div>
+                            <div class="social-media Linkdin">
+                                <div class="social-media-icon">
+                                  <img src="pictures/linkdin.png">
+                                </div>
+                                <div class="social-media-name">Linkdin</div>
+                              </div>
+                              <div class="social-media VSCO">
+                                <div class="social-media-icon">
+                                  <img src="pictures/vsco.png">
+                                </div>
+                                <div class="social-media-name">VSCO</div>
+                              </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- -----------------------footer----------------------- -->
+            </div>
+            <!-------------------------------------- Main ------------------------------------------------>
+        </div>
+          <!-- ------------------------------------ English -------------------------------------- -->
+          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+          <script src="script.js"></script>
+</body>
+</html>
