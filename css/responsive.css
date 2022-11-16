@@ -1,0 +1,282 @@
+@media (max-width:670px){
+
+html {
+  touch-action: manipulation;
+  background-color:rgba(50, 104, 138, 0.696);
+}
+
+/* ---------------header------------------ */
+.header-contents{
+  width:100%;
+}
+
+.switch{
+  top:10px;
+  left:3px;
+  width:90px;
+  height:30px;
+}
+
+.select-lang{
+  line-height: 24px;
+  font-size:11px;
+  border:3px solid #454857;
+}
+.en{
+  width:43px;
+  border-left:0.5px solid  #454857;
+}
+.ja{
+  width:43px;
+  border-right:0.5px solid  #454857;
+}
+
+.header-name .logo{
+  font-size:22px;
+}
+
+.checkbtn{
+  width:35px;
+  height:35px;
+  right:8px;
+  top:7px;
+}
+
+.header-contents ul{
+  width:100%;
+  min-height:0px;
+  height:300px;
+  padding:0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.header-contents ul li {
+  margin:0;
+  height:calc(100% / 6);
+}
+.header-contents ul li a{
+  padding:0;
+  height:100%;
+  line-height: 50px;
+}
+/* ---------------header------------------ */
+
+/* ---------------Top Page------------------ */
+
+.top-page .myname{
+  font-size:30px;
+}
+
+.top-page .myname p{
+  font-size:24px;
+}
+/* ---------------Top Page------------------ */
+
+
+/* ---------------Contents----------------- */
+.contents{
+  width:92%;
+}
+.catch{
+  font-size:20px;
+}
+.introduction,.portfolios,.coding-skills,.my-interests{
+  padding:10px 25px;
+  margin-bottom:6em;
+}
+
+.catch:before, .catch:after,
+.portfolios .portfolio:before, .portfolios .portfolio:after,
+.time-line .catch:before, .time-line .catch:after{
+  width: 3em;
+}
+/* ---------------Contents----------------- */
+
+
+/* --------------- Introduction ----------------- */
+
+.introduction img{
+  margin-top:10px;
+}
+
+.introduction .name{
+  font-size:16px;
+  top:13%;
+  left:10%;
+}
+
+.Japanese .introduction .name{
+  top:15%;
+  left:15%;
+}
+
+.introduction .name span{
+  font-size:25px;
+}
+
+/* --------------- Introduction ----------------- */
+
+/* --------------- TimeLine ----------------- */
+
+.time-line{
+  padding:1em 1em 0 1em;
+}
+
+.lists li {
+  margin-left:-20px;
+  padding: 0 0 30px 20px;
+}
+.timeline-item {
+  color: #fff;
+  margin-top:0px;
+  margin-left:3.3em;
+  text-indent: -3em;
+}
+
+/* --------------- TimeLine ----------------- */
+
+
+/* ---------------- Coding Skills ------------------------ */
+
+.coding-skills-content{
+  display:block;
+}
+.content-left{
+ width:100%;
+}
+.content-right{
+  width:100%;
+}
+.content-right img{
+  margin:0 40px 0 40px;
+}
+
+/* ---------------- Coding Skills ------------------------ */
+
+
+/* ------------------- portfolios ------------------ */
+
+.portfolios .tabs .tab{
+  padding:8px 10px;
+  font-size:16px;
+}
+.Japanese .tabs .tab{
+  font-size:13px;
+}
+
+.panels{
+  padding:0px;
+}
+.panel{
+  padding:0px 20px;
+}
+.work{
+  margin:40px 0;
+}
+
+/* ------------------- portfolios ------------------ */
+
+/* ----------------- Interest ---------------------- */
+.pictures{
+  height:500px;
+}
+
+.daihuku,.breakfast,.rose,.sunset-with-sign, .forest{
+  display:none;
+}
+.pic{
+  opacity:0.8;
+}
+.fire{
+  top:335px;
+  left:25px;
+  width:80px;
+}
+
+.winery{
+  width:140px;
+  left:20px;
+}
+.asai{
+  width:100px;
+  top:200px;
+  left:0px;
+}
+.art{
+  width:120px;
+  top:200px;
+  left:105px;
+}
+.breakfast{
+  width:100px;
+  top:390px;
+  left:0px;
+}
+.sunset{
+  width:130px;
+  left:165px;
+  top:80px;
+}
+.airplane{
+  width:65px;
+  top:200px;
+  right:0px;
+}
+.bridge{
+  width:135px;
+  top:295px;
+  left:110px;
+}
+
+/* ----------------- Interest ---------------------- */
+
+/* ----------------- Footer ---------------------- */
+footer{ 
+  width:100%;
+}
+
+
+footer .contents{
+  width:100%;
+}
+
+.contact{
+  width:200px;
+}
+
+
+.address{
+  width:300px;
+}
+
+.social-medias{
+  width:300px;
+}
+/* ----------------- Footer ---------------------- */
+}
+
+
+@media (max-width:1000px){
+
+html {
+  touch-action: manipulation;
+  background-color:rgba(50, 104, 138, 0.696);
+}
+.header-contents ul{
+  width:100%;
+  min-height:0px;
+  height:420px;
+  padding:0;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.header-contents ul li {
+  margin:0;
+  height:calc(100% / 6);
+}
+.header-contents ul li a{
+  padding:0;
+  height:100%;
+  line-height: 70px;
+}
+}
