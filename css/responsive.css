@@ -252,6 +252,17 @@ footer .contents{
 .social-medias{
   width:300px;
 }
+  
+.email,.phone{
+  font-size:21px;
+}
+  
+.email img, .phone img{
+  width:25px;
+}
+.social-media-icon{
+  width:80%;
+}
 /* ----------------- Footer ---------------------- */
 }
 
