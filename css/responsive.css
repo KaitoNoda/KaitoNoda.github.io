@@ -106,7 +106,7 @@ html {
 }
 
 .Japanese .introduction .name{
-  top:15%;
+  top:20%;
   left:15%;
 }
 
@@ -186,7 +186,6 @@ html {
 .pictures{
   height:500px;
   width:300px;
-  border:2px solid red;
 }
 
 .daihuku,.breakfast,.rose,.sunset-with-sign, .forest{
@@ -297,4 +296,11 @@ html {
   height:100%;
   line-height: 70px;
 }
+}
+
+
+@media (max-width:400px){
+  .Japanese .introduction .name{
+    top:15%;
+  }
 }
